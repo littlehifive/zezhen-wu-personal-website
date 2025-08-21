@@ -9,32 +9,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Research Focus',
+    title: 'Data Science for Social Impact',
     Svg: require('@site/static/img/research.svg').default,
     description: (
       <>
-        My research interests span across various domains in computer science,
-        with a focus on innovative solutions to complex problems.
+        Behavioral scientist specializing in evidence-based interventions for children 
+        and adolescents in challenging contexts. Expert in experimental design, 
+        statistical analysis, and measurement development.
       </>
     ),
   },
   {
-    title: 'Academic Publications',
+    title: '15+ Publications',
     Svg: require('@site/static/img/publications.svg').default,
     description: (
       <>
-        Explore my peer-reviewed publications and research contributions
-        to the academic community.
+        Published researcher with articles in top-tier journals including 
+        <em>Development and Psychopathology</em>, <em>Journal of Social Issues</em>, 
+        and <em>Frontiers in Psychology</em>.
       </>
     ),
   },
   {
-    title: 'Blog & Insights',
+    title: 'Research Insights',
     Svg: require('@site/static/img/blog.svg').default,
     description: (
       <>
-        Read my thoughts on technology, research, and academic life through
-        regular blog posts and insights.
+        Sharing insights on behavioral science, educational interventions, 
+        research methodology, and the intersection of technology and social good.
       </>
     ),
   },

@@ -19,6 +19,12 @@ function HomepageHeader() {
             to="/about">
             Learn More About Me
           </Link>
+          <Link
+            className="button button--outline button--secondary button--lg"
+            to="/cv.pdf"
+            style={{marginLeft: '10px'}}>
+            Download CV
+          </Link>
         </div>
       </div>
     </header>
@@ -29,8 +35,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Zezhen Wu's personal website - Academic researcher and developer">
+      title={`${siteConfig.title} - Behavioral Scientist`}
+      description="Zezhen Wu, Ph.D. - Behavioral Scientist at The Agency Fund specializing in data science for social impact, educational interventions, and evidence-based research with vulnerable populations.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

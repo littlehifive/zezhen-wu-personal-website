@@ -1,38 +1,45 @@
 ---
-slug: research-methodology-thoughts
-title: Thoughts on Research Methodology
+slug: behavioral-science-humanitarian-settings
+title: Applying Behavioral Science in Humanitarian Settings
 authors: [zezhen]
-tags: [research, methodology, academic-writing]
+tags: [behavioral-science, humanitarian-research, SEL, refugee-children]
 ---
 
-Some reflections on research methodology and best practices I've learned during my academic journey.
+Reflecting on my research journey working with refugee and conflict-affected children, and the unique challenges of conducting rigorous behavioral science in humanitarian contexts.
 
 <!--truncate-->
 
-## The Importance of Systematic Approaches
+## The Challenge of Research in Crisis Contexts
 
-Research methodology forms the backbone of any solid academic work. Over the years, I've learned that having a systematic approach not only improves the quality of research but also makes the entire process more manageable.
+Working with Syrian refugee children in Lebanon and Nigerian refugees in Niger has taught me that traditional research approaches often fall short in humanitarian settings. The stakes are higher, resources are limited, and ethical considerations become even more complex.
 
-## Key Principles I Follow
+## Key Lessons from the Field
 
-### 1. Start with Clear Questions
-Every good research project begins with well-defined questions. I spend considerable time refining my research questions before diving into the actual work.
+### 1. Cultural Adaptation is Everything
+You cannot simply translate instruments and expect them to work. During my work developing the Self-Regulation Assessment-Assessor Report (SRA-AR), we learned that behavioral regulation manifests differently across cultural contexts. What looks like "disruptive behavior" in one culture might be perfectly appropriate social interaction in another.
 
-### 2. Literature Review is Critical
-Understanding what has been done before is essential. I maintain organized notes and use reference management tools to keep track of relevant work.
+### 2. Measurement Must Be Practical
+In refugee camps and emergency education settings, lengthy assessments are not feasible. We developed brief, skill-targeted social-emotional learning (SEL) activities that could be implemented by teachers with minimal training while still maintaining scientific rigor.
 
-### 3. Reproducibility Matters
-Making research reproducible is not just good practice—it's essential for advancing knowledge. I always document my methods and make code available when possible.
+### 3. Local Partnerships Are Essential
+Some of our most impactful work came from genuine partnerships with local organizations and communities. The teachers, camp coordinators, and community leaders weren't just research assistants—they were collaborators who shaped our understanding of what would actually work.
 
-## Tools That Help
+## The Values Affirmation Research
 
-- **Reference Management**: Zotero or Mendeley for organizing papers
-- **Note-taking**: Obsidian or Notion for connecting ideas
-- **Version Control**: Git for tracking changes in code and documents
-- **Writing**: LaTeX for papers, Markdown for notes and documentation
+My dissertation research on values affirmation with deaf students in Nepal exemplifies how psychological interventions can be adapted for vulnerable populations. This brief writing exercise, where students reflect on their core values, has shown remarkable effects in reducing stereotype threat and improving academic outcomes.
 
-## Conclusion
+What made this work special wasn't just the statistical significance (though Cohen's d = 0.42 is pretty exciting!), but seeing how a simple intervention could help students see their challenges as manageable rather than indicative of their worth.
 
-Good methodology takes time to develop, but the investment pays off in higher quality research and more efficient workflows.
+## Looking Forward: AI and Social Impact
 
-What methodological practices have worked best for you? I'd love to hear about different approaches!
+Now at The Agency Fund, I'm exploring how artificial intelligence can scale these types of evidence-based interventions. The challenge is maintaining the human-centered, culturally responsive approach that makes behavioral science effective while leveraging technology's reach.
+
+## The Real Impact
+
+The numbers matter—effect sizes, confidence intervals, p-values. But what keeps me motivated is remembering the teachers in Lebanon who told us our training helped them better support their students, or the students in Nepal who said the values affirmation exercise helped them feel more confident in school.
+
+That's the intersection where rigorous science meets real-world impact, and it's exactly where I want to keep working.
+
+---
+
+*What challenges have you faced applying research in real-world settings? I'd love to hear about your experiences in the comments or via [email](mailto:zezhen@agency.fund).*

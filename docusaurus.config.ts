@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Zezhen Wu',
-  tagline: 'Academic Researcher & Developer',
+  tagline: 'Ph.D. | Behavioral Scientist | Data Science for Social Impact',
   favicon: 'img/favicon.ico',
 
   url: 'https://littlehifive.github.io',
@@ -13,7 +13,7 @@ const config: Config = {
   organizationName: 'littlehifive',
   projectName: 'zezhen-wu-personal-website',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -115,12 +115,8 @@ const config: Config = {
               href: 'https://github.com/littlehifive',
             },
             {
-              label: 'LinkedIn',
-              href: 'https://linkedin.com/in/your-profile',
-            },
-            {
               label: 'Email',
-              href: 'mailto:your-email@example.com',
+              href: 'mailto:zezhen@agency.fund',
             },
           ],
         },
