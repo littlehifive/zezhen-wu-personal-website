@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-docusaurus:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
