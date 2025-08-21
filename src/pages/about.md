@@ -1,16 +1,28 @@
 # About Me
 
-Welcome to my personal website! I'm **Zezhen Wu, Ph.D.**, a behavioral scientist currently working at The Agency Fund, where I leverage data science and psychological research to create social impact.
+**Welcome to my personal website!**
+
+:::info Things to know about me:
+- I strive to be a polymath.
+- I evaluate AI systems on their impact to human lives.
+- I design social interventions to help underserved communities.
+- I use and develop data science tools to improve research efficiency.
+- I bridge academic research with real-world challenges in fast-paced working environments.
+:::
 
 ## Background
 
-I recently completed my Ph.D. in Psychology and Social Intervention at New York University (2019-2024), specializing in Data Science for Social Impact under the guidance of Dr. J. Lawrence Aber. My academic journey has taken me across prestigious institutions including the University of Oxford (MPhil in Evidence-based Social Intervention and Policy Evaluation), Harvard University (Ed.M. in Arts in Education), and Tsinghua University (B.Sc. in Psychology).
+I completed my Ph.D. in Psychology and Social Intervention at New York University (2019-2024), with a specialty area in Data Science for Social Impact under the guidance of Dr. J. Lawrence Aber. My academic journey has taken me across prestigious institutions including the University of Oxford (MPhil in Evidence-based Social Intervention and Policy Evaluation), Harvard University (Ed.M. in Arts in Education), and Tsinghua University (B.Sc. in Psychology).
 
 ## Current Role
 
-**Behavioral Scientist at The Agency Fund** (June 2024 - Present)
+**Behavioral Scientist at [The Agency Fund](https://www.agency.fund/)** (June 2024 - Present)
 
-I apply behavioral science principles and data-driven approaches to create meaningful social impact. My work bridges the gap between rigorous academic research and practical applications in real-world settings.
+I apply behavioral science principles and data-driven approaches to create meaningful social impact. For instance, please see my work on:
+
+- [ChatSEL](https://agency-fund.github.io/chatsel-docs/) - An Open-Source AI-powered Teacher Coaching Chatbot for Diverse SEL Programming in Low-Resource Settings
+
+- [A Living Playbook for AI Evaluation in the Social Sector](https://eval.playbook.org.ai/)
 
 ## Research Interests
 
@@ -41,7 +53,6 @@ I'm also passionate about music - I play cello, saxophone, and guitar, and have 
 ## Contact
 
 - **Email**: zezhen@agency.fund
-- **Phone**: +1-551-225-9357
 - **GitHub**: [github.com/littlehifive](https://github.com/littlehifive)
 - **CV**: [Download CV](/cv.pdf)
 

@@ -62,11 +62,6 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/research',
-          label: 'Research',
-          position: 'left',
-        },
-        {
           to: '/publications',
           label: 'Publications',
           position: 'left',
@@ -92,10 +87,6 @@ const config: Config = {
             {
               label: 'About',
               to: '/about',
-            },
-            {
-              label: 'Research',
-              to: '/research',
             },
             {
               label: 'Publications',
