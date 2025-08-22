@@ -7,8 +7,8 @@ const config: Config = {
   tagline: 'Ph.D. | Behavioral Scientist | Data Science for Social Impact',
   favicon: 'img/favicon.ico',
 
-  url: 'https://zezhenwu.com',
-  baseUrl: '/',
+  url: 'https://littlehifive.github.io',
+  baseUrl: '/zezhen-wu-personal-website/',
 
   organizationName: 'littlehifive',
   projectName: 'zezhen-wu-personal-website',
