@@ -77,11 +77,6 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://www.linkedin.com/in/zezhenwu/',
-          label: 'LinkedIn',
-          position: 'right',
-        },
-        {
           href: 'https://github.com/littlehifive/zezhen-wu-personal-website',
           label: 'GitHub',
           position: 'right',
