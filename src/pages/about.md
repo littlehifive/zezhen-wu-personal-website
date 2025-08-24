@@ -1,24 +1,16 @@
 # About Me
 
-**Welcome to my personal website!**
-
-:::info Things to know about me:
-- I strive to be a polymath.
-- I evaluate AI systems on their impact to human lives.
-- I design social interventions to help underserved communities.
-- I use and develop data science tools to improve research efficiency.
-- I bridge academic research with real-world challenges in fast-paced working environments.
-:::
-
 ## Background
 
-I completed my Ph.D. in Psychology and Social Intervention at New York University (2019-2024), with a specialty area in Data Science for Social Impact under the guidance of Dr. J. Lawrence Aber. My academic journey has taken me across prestigious institutions including the University of Oxford (MPhil in Evidence-based Social Intervention and Policy Evaluation), Harvard University (Ed.M. in Arts in Education), and Tsinghua University (B.Sc. in Psychology).
+I completed my Ph.D. in Psychology and Social Intervention at New York University (2019-2024), with a specialty area in Data Science for Social Impact under the guidance of [Dr. J. Lawrence Aber](https://steinhardt.nyu.edu/people/j-lawrence-aber). 
+
+My academic journey has taken me across prestigious institutions including the University of Oxford (MPhil in Evidence-based Social Intervention and Policy Evaluation), Harvard University (Ed.M. in Arts in Education), and Tsinghua University (B.Sc. in Psychology).
 
 ## Current Role
 
 **Behavioral Scientist at [The Agency Fund](https://www.agency.fund/)** (June 2024 - Present)
 
-I apply behavioral science principles and data-driven approaches to create meaningful social impact. For instance, please see my work on:
+I apply behavioral science principles and data-driven approaches to create meaningful social impact. I also work extensively on designing and evlauting AI products in the social sector. For instance, please see my work on:
 
 - [ChatSEL](https://agency-fund.github.io/chatsel-docs/) - An Open-Source AI-powered Teacher Coaching Chatbot for Diverse SEL Programming in Low-Resource Settings
 
@@ -28,25 +20,12 @@ I apply behavioral science principles and data-driven approaches to create meani
 
 My research focuses on several interconnected areas:
 
-- **AI evaluation for social impact** - Exploring how artificial intelligence can be leveraged for positive social outcomes
-- **Social and emotional learning (SEL)** - Understanding how SEL interventions affect student outcomes
-- **Education in low-resource and emergency contexts** - Developing evidence-based interventions for vulnerable populations
-- **Evidence-based social psychological interventions** - Creating and testing interventions that improve academic and psychological outcomes
+- **AI evaluation for social impact** - Exploring how AI products can be designed, implemented, and evaluated to produce positive social outcomes
+- **Social and emotional learning (SEL)** - Understanding how SEL interventions affect students' SEL and academic outcomes
+- **Health and education interventions in low-resource contexts** - Developing evidence-based interventions for vulnerable populations in low-resource contexts *(e.g., mothers in rural India; deaf students in Nepal; Syrian refugee children in Lebanon, etc.)*
+- **Evidence-based social psychological interventions** - Creating and testing psychologically wise interventions that improve human agency and development
 
-## Academic Achievements
-
-- **Publications**: 15+ peer-reviewed articles in top-tier journals including *Social Psychology of Education*, *Development and Psychopathology*, and *Journal of Social Issues*
-- **Awards**: Over $180,000 in fellowships and grants, including the Monroe Stein Memorial Fellowship and NYU Steinhardt Doctoral Fellowship
-- **Teaching**: Extensive experience teaching statistics, research methods, and data analysis at NYU
-
-## Technical Skills
-
-- **Programming**: R, Python, SQL, Stata, SPSS, Stan
-- **Data Visualization**: ggplot2, Plotly, Shiny, Matplotlib, Tableau
-- **Survey Platforms**: SurveyCTO, Qualtrics, Amazon MTurk
-- **Specializations**: Bayesian Statistics, Machine Learning, Causal Inference, Multilevel Modeling
-
-## Beyond Academia
+## More about me
 
 I'm also passionate about music - I play cello, saxophone, and guitar, and have performed with orchestras at Harvard, Oxford, and NYU. In 2015, I was named Best Original Singer at Tsinghua University.
 
