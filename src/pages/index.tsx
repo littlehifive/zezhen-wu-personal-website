@@ -29,11 +29,10 @@ export default function Home(): React.JSX.Element {
           {/* Mission Section */}
           <div className={styles.missionSection}>
             <p className={styles.missionText}>
-              <strong> I strive to be a polymath. </strong> <br />
-              I evaluate AI systems on their impact to human lives. 
-              I design social interventions to help underserved communities. I use and develop 
-              data science tools to improve research efficiency. I bridge academic research 
-              with real-world challenges in fast-paced working environments.
+              <strong>I strive to be a polymath.</strong> <br /><br />
+              I evaluate AI systems on their impact to human lives. <br /><br />
+              I design social interventions to help underserved communities. <br /><br />
+              I use and develop data science tools to address real-world challenges.
             </p>
           </div>
 
@@ -46,6 +45,8 @@ export default function Home(): React.JSX.Element {
             <Link to="/blog" className={styles.navLink}>Blog</Link>
             <span className={styles.separator}>•</span>
             <a href={useBaseUrl('/cv.pdf')} className={styles.navLink} target="_blank" rel="noopener noreferrer">CV</a>
+            <span className={styles.separator}>•</span>
+            <a href="https://www.linkedin.com/in/zezhenwu/" className={styles.navLink} target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           
         </div>

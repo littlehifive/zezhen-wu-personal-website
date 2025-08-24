@@ -1,4 +1,4 @@
-/* Minimal Light Homepage Design */
+/* Minimal Homepage Design with Dark/Light Mode Support */
 .main {
   background: #ffffff;
   min-height: 100vh;
@@ -7,6 +7,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Dark mode styles */
+[data-theme='dark'] .main {
+  background: #1a1a1a;
 }
 
 .container {
@@ -28,6 +34,12 @@
   object-fit: cover;
   margin-bottom: 1.5rem;
   border: 2px solid #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+
+/* Dark mode profile image */
+[data-theme='dark'] .profileImage {
+  border: 2px solid #444444;
 }
 
 .name {
@@ -36,6 +48,12 @@
   margin: 0;
   color: #333333;
   letter-spacing: -0.01em;
+  transition: color 0.3s ease;
+}
+
+/* Dark mode name */
+[data-theme='dark'] .name {
+  color: #ffffff;
 }
 
 /* Mission Section */
@@ -49,6 +67,12 @@
   color: #555555;
   max-width: 600px;
   margin: 0 auto;
+  transition: color 0.3s ease;
+}
+
+/* Dark mode mission text */
+[data-theme='dark'] .missionText {
+  color: #cccccc;
 }
 
 /* Navigation Section */
@@ -73,6 +97,21 @@
   color: #cccccc;
   margin: 0 1rem;
   font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Dark mode navigation */
+[data-theme='dark'] .navLink {
+  color: #66b3ff;
+}
+
+[data-theme='dark'] .navLink:hover {
+  color: #99ccff;
+  text-decoration: underline;
+}
+
+[data-theme='dark'] .separator {
+  color: #666666;
 }
 
 /* Responsive Design */

@@ -8,7 +8,7 @@
 
 ### 2024
 
-Aber, J. L., Kim, H. Y., & **Wu, Z.** (2024). Patterns of self-regulation and emotional well-being among Syrian refugee children in Lebanon: An exploratory person-centered approach. *Development and Psychopathology*, 36(5), 2522-2541.
+Aber, J. L., Kim, H. Y., & **Wu, Z.** (2024). Patterns of self-regulation and emotional well-being among Syrian refugee children in Lebanon: An exploratory person-centered approach. *Development and Psychopathology*, 36(5), 2522-2541. [https://doi.org/10.1017/S0954579424001202](https://doi.org/10.1017/S0954579424001202)
 
 ### 2023
 

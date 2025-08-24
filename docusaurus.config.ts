@@ -48,7 +48,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/social-card.jpg',
+    image: 'img/zezhen-profile.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'Zezhen Wu',
       logo: {
@@ -72,7 +77,12 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/littlehifive',
+          href: 'https://www.linkedin.com/in/zezhenwu/',
+          label: 'LinkedIn',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/littlehifive/zezhen-wu-personal-website',
           label: 'GitHub',
           position: 'right',
         },
@@ -80,39 +90,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Pages',
-          items: [
-            {
-              label: 'About',
-              to: '/about',
-            },
-            {
-              label: 'Publications',
-              to: '/publications',
-            },
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-          ],
-        },
-        {
-          title: 'Connect',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/littlehifive',
-            },
-            {
-              label: 'Email',
-              href: 'mailto:zezhen@agency.fund',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Zezhen Wu. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Zezhen Wu. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.`,
     },
     prism: {
       theme: prismThemes.github,
