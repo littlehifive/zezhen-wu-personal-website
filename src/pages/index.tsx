@@ -7,7 +7,6 @@ import Head from '@docusaurus/Head';
 import styles from './index.module.css';
 
 export default function Home(): React.JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -43,8 +42,8 @@ export default function Home(): React.JSX.Element {
 
   return (
     <Layout
-      title={`${siteConfig.title} - Behavioral Scientist`}
-      description="Zezhen Wu, Ph.D. - Behavioral Scientist at The Agency Fund specializing in data science for social impact, educational interventions, and evidence-based research with vulnerable populations.">
+      title="Zezhen Wu, PhD | AI and Data for Social Impact"
+      description="I strive to be a polymath. I evaluate AI systems on their impact to human lives. I design social interventions to help underserved communities. I use and develop data science tools to address real-world challenges.">
       
       <Head>
         <script type="application/ld+json">
