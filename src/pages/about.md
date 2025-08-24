@@ -1,3 +1,9 @@
+---
+title: About Zezhen Wu - Ph.D. Behavioral Scientist
+description: Learn about Zezhen Wu's background, research, and work as a Behavioral Scientist at The Agency Fund. Ph.D. from NYU specializing in data science for social impact and AI evaluation.
+keywords: [Zezhen Wu, behavioral scientist, Ph.D., NYU, Oxford, Harvard, data science, social impact, AI evaluation, psychology]
+---
+
 # About Me
 
 ## Background

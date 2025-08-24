@@ -43,12 +43,32 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: null,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
     image: 'img/zezhen-profile.jpg',
+    metadata: [
+      {name: 'keywords', content: 'Zezhen Wu, behavioral scientist, data science, social impact, AI ethics, educational interventions, psychology research, Ph.D.'},
+      {name: 'author', content: 'Zezhen Wu'},
+      {name: 'description', content: 'Zezhen Wu, Ph.D. - Behavioral Scientist specializing in data science for social impact, AI systems evaluation, and evidence-based interventions for underserved communities.'},
+      {property: 'og:type', content: 'profile'},
+      {property: 'og:title', content: 'Zezhen Wu - Behavioral Scientist & Data Scientist'},
+      {property: 'og:description', content: 'Ph.D. Behavioral Scientist at The Agency Fund specializing in data science for social impact, AI systems evaluation, and educational interventions.'},
+      {property: 'og:image', content: 'https://zezhenwu.com/img/zezhen-profile.jpg'},
+      {property: 'og:url', content: 'https://zezhenwu.com'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:title', content: 'Zezhen Wu - Behavioral Scientist & Data Scientist'},
+      {name: 'twitter:description', content: 'Ph.D. Behavioral Scientist specializing in data science for social impact and AI systems evaluation.'},
+      {name: 'twitter:image', content: 'https://zezhenwu.com/img/zezhen-profile.jpg'},
+    ],
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,

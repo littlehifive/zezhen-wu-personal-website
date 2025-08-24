@@ -1,3 +1,9 @@
+---
+title: Publications - Zezhen Wu, Ph.D.
+description: Complete list of Zezhen Wu's academic publications including peer-reviewed articles, technical reports, and conference presentations in behavioral science, education, and social psychology.
+keywords: [Zezhen Wu publications, research papers, behavioral science, social psychology, education research, meta-analysis, values affirmation, SEL]
+---
+
 # Publications
 
 ## Peer-Reviewed Journal Articles
