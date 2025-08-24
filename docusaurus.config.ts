@@ -70,7 +70,7 @@ const config: Config = {
       {name: 'twitter:image', content: 'https://zezhenwu.com/img/zezhen-profile.jpg'},
     ],
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
