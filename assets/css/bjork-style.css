@@ -270,10 +270,11 @@ p {
 .wp-block-cover {
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 90vh;
-    padding: var(--wp--preset--spacing--80) var(--wp--preset--spacing--60);
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: auto;
+    padding: var(--wp--preset--spacing--60) var(--wp--preset--spacing--60);
+    padding-top: 0;
 }
 
 .wp-block-cover.is-light {
