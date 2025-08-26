@@ -197,6 +197,20 @@ p {
     justify-content: space-between;
 }
 
+/* Profile Image */
+.sidebar-profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid var(--wp--preset--color--tertiary);
+    margin-bottom: 1em;
+    display: block;
+    background-image: url('../img/zezhen-profile.jpg');
+    background-size: cover;
+    background-position: 60% center;
+    background-repeat: no-repeat;
+}
+
 /* Site Title and Tagline */
 .wp-block-site-title {
     font-size: var(--wp--preset--font-size--heading-5);
