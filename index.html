@@ -97,15 +97,15 @@
                             <span aria-hidden="true" class="wp-block-cover__background"></span>
                             <div class="wp-block-cover__inner-container">
                                 <div class="wp-block-group alignwide">
-                                    <h1 class="has-secondary-color has-text-color has-extra-large-font-size" style="margin-top:0px">Hi there!</h1>
+                                    <h1 class="has-secondary-color has-text-color has-extra-large-font-size animated-greeting" id="greeting" style="margin-top:0px">Hi there!</h1>
                                     <h1>I'm Zezhen Wu, a behavioral scientist working at the intersection of AI, data science, and social impact.</h1>
                                     
                                     <div class="wp-block-buttons">
                                         <div class="wp-block-button">
-                                            <a class="wp-block-button__link" href="mailto:zezhen@agency.fund">Get In Touch</a>
+                                            <a class="wp-block-button__link" href="https://www.linkedin.com/in/zezhenwu/" target="_blank" rel="noopener">Get In Touch</a>
                                         </div>
                                         <div class="wp-block-button is-style-outline">
-                                            <a class="wp-block-button__link has-primary-color" href="about.html">About Me</a>
+                                            <a class="wp-block-button__link" href="about.html">About Me</a>
                                         </div>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@
                                     I use and develop data science tools to address real-world challenges.</p>
                             </div>
                             <div class="wp-block-column">
-                                <p>Currently, I work as a Behavioral Scientist at The Agency Fund, where I apply rigorous research methods to create meaningful social impact through AI and data-driven approaches.</p>
+                                <p>Currently, I work as a Behavioral Scientist at <a href="https://agency.fund" target="_blank" rel="noopener">The Agency Fund</a>, where I apply rigorous research methods to create meaningful social impact through AI and data-driven approaches. I work closely with NGOs in South Asia and Africa.</p>
                             </div>
                         </div>
                         <!-- /Two Column Intro -->
@@ -137,5 +137,41 @@
             </div>
         </div>
     </div>
+    
+    <script>
+        // Array of greetings in different languages
+        const greetings = [
+            "Hi there!",      // English
+            "你好！",         // Chinese (Simplified)
+            "こんにちは！",    // Japanese
+            "नमस्ते!",         // Hindi
+            "¡Hola!"          // Spanish
+        ];
+        
+        let currentIndex = 0;
+        const greetingElement = document.getElementById('greeting');
+        
+        function cycleGreeting() {
+            // Fade out
+            greetingElement.classList.add('fade-out');
+            
+            // Wait for fade out to complete, then change text and fade in
+            setTimeout(() => {
+                // Change text while completely faded out
+                currentIndex = (currentIndex + 1) % greetings.length;
+                greetingElement.textContent = greetings[currentIndex];
+                
+                // Small delay to ensure text change is rendered, then fade in
+                setTimeout(() => {
+                    greetingElement.classList.remove('fade-out');
+                }, 50);
+            }, 500); // Wait for full fade out (matches CSS transition time)
+        }
+        
+        // Start the animation after page load
+        setTimeout(() => {
+            setInterval(cycleGreeting, 2500); // Change every 2.5 seconds (0.5s out + 0.5s in + 1.5s display)
+        }, 1000); // Wait 1 second before starting
+    </script>
 </body>
 </html>
