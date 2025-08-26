@@ -426,6 +426,19 @@ p {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
+.wp-block-button.linkedin-button .wp-block-button__link {
+    background-color: white;
+    color: #0077B5;
+    border: 2px solid #0077B5;
+}
+
+.wp-block-button.linkedin-button .wp-block-button__link:hover {
+    background-color: #0077B5;
+    color: white;
+    border-color: #0077B5;
+    box-shadow: 0 4px 12px rgba(0, 119, 181, 0.3);
+}
+
 .is-style-outline .wp-block-button__link {
     background-color: white;
     border: 2px solid black;
