@@ -208,6 +208,7 @@ p {
     height: 80px;
     border-radius: 50%;
     border: 3px solid var(--wp--preset--color--tertiary);
+    margin-top: -1em;
     margin-bottom: 1em;
     display: block;
     background-image: url('../img/zezhen-profile.jpg');
@@ -226,7 +227,8 @@ p {
     background-clip: text;
 }
 
-.animated-greeting.fade-out {
+.animated-greeting.fade-out,
+.animated-name.fade-out {
     opacity: 0;
 }
 
@@ -314,6 +316,7 @@ p {
 /* Navigation */
 .wp-block-navigation {
     font-size: var(--wp--preset--font-size--small);
+    margin-top: 6.8em;
 }
 
 .wp-block-navigation ul {
@@ -363,11 +366,11 @@ p {
 .wp-block-cover {
     position: relative;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     min-height: auto;
     padding: var(--wp--preset--spacing--60) var(--wp--preset--spacing--60);
-    padding-top: 0;
+    padding-top: 10vh;
 }
 
 .wp-block-cover.is-light {
