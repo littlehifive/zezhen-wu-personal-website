@@ -7,9 +7,14 @@
       "Bash(cp:*)",
       "Bash(mkdir:*)",
       "Bash(npm run build:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(git pull:*)",
+      "Read(//Users/michaelfive/Downloads/**)"
     ],
     "deny": [],
-    "ask": []
+    "ask": [],
+    "additionalDirectories": [
+      "/Users/michaelfive/Code/mystuff"
+    ]
   }
 }

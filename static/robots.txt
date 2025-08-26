@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://zezhenwu.com/sitemap.xml
-
-# Block crawling of internal docs that are not meant to be public
-Disallow: /docs/hello
-Disallow: /docs/intro
-Disallow: /docs/tutorial-basics/
