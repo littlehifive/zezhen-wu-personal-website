@@ -83,6 +83,11 @@
     box-sizing: border-box;
 }
 
+/* Global smooth transitions for theme switching */
+*, *::before, *::after {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, fill 0.3s ease, stroke 0.3s ease;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -223,6 +228,66 @@ p {
 
 .animated-greeting.fade-out {
     opacity: 0;
+}
+
+/* Global Toolbar */
+.global-toolbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.toolbar-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--wp--preset--color--tertiary);
+    background-color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--foreground);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar-button:hover {
+    background-color: var(--wp--preset--color--tertiary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    color: var(--wp--preset--color--foreground);
+}
+
+.toolbar-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] {
+    --wp--preset--color--foreground: #ffffff;
+    --wp--preset--color--background: #111111;
+    --wp--preset--color--primary: #60a5fa;
+    --wp--preset--color--secondary: #9ca3af;
+    --wp--preset--color--tertiary: #374151;
+    --wp--preset--color--quaternary: #1f2937;
+}
+
+[data-theme="dark"] .toolbar-button {
+    border-color: var(--wp--preset--color--tertiary);
+    background-color: var(--wp--preset--color--background);
+}
+
+/* Hide sun in light mode, moon in dark mode */
+[data-theme="light"] .sun-icon,
+[data-theme="dark"] .moon-icon {
+    display: none;
 }
 
 /* Site Title and Tagline */
