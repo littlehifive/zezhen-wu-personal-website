@@ -343,23 +343,25 @@ p {
 /* Social Links */
 .wp-block-social-links {
     display: flex;
-    gap: 0.66em;
-    list-style: none;
+    align-items: center;
+    gap: 0.5em;
+    font-size: var(--wp--preset--font-size--small);
     padding: 0;
     margin: 0;
 }
 
-.wp-social-link {
-    font-size: var(--wp--preset--font-size--small);
-}
-
-.wp-social-link a {
+.wp-block-social-links a {
+    color: black;
     text-decoration: none;
-    color: var(--wp--preset--color--secondary);
 }
 
-.wp-social-link a:hover {
+.wp-block-social-links a:hover {
     color: var(--wp--preset--color--primary);
+}
+
+.wp-block-social-links .separator {
+    color: black;
+    font-weight: bold;
 }
 
 /* Cover Block (Hero Section) */
@@ -449,6 +451,19 @@ p {
     background-color: black;
     color: white;
     border-color: black;
+}
+
+.wp-block-button.medium-button .wp-block-button__link {
+    background-color: white;
+    color: #292929;
+    border: 2px solid #292929;
+}
+
+.wp-block-button.medium-button .wp-block-button__link:hover {
+    background-color: #292929;
+    color: white;
+    border-color: #292929;
+    box-shadow: 0 4px 12px rgba(41, 41, 41, 0.3);
 }
 
 /* Separator */
